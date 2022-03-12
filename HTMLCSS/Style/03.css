@@ -1,0 +1,23 @@
+#font1
+{
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+line-height: 1em;
+}
+
+#font2
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#font2 p
+{
+    font-weight:bold;
+}
+#googlefont
+{
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+#googlefont p
+{
+    font-style: italic;
+}
