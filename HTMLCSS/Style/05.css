@@ -1,0 +1,26 @@
+*{
+    /* resetter to reset  */
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#firstbox
+{
+    /*margin*/
+    /* top right bottom left */
+    /* trbl -->>> toribole `*/
+padding: 10px;
+background-color: darkgoldenrod;
+margin: 10px;
+}
+#secondbox
+{
+    /* padding shrothand */
+    /* top right bottom left */
+    /* trbl -->>> toribole `*/
+    /* so for margin same as */
+padding: 20px;
+margin: 20px;
+background-color:royalblue ;
+}
