@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    /* floating design but can break */
+    max-width: 960;
+    background-color:cornflowerblue;
+    border:2px solid black;
+    margin:20px auto;
+    padding:10px;
+    text-align: center;
+}
+#box1
+{
+    background-color: aquamarine;
+    max-width: 70%;
+    float: right;
+    border: 2px blue solid;
+    clear:both;
+}
+#box2
+{
+    float:left;
+    background-color: aquamarine;
+    max-width: 30%;
+    border: 2px blue solid;
+}               
