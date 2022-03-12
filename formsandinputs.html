@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms and Input</title>
 </head>
+
 <body>
     <!-- TYPES
     <input type="button">
@@ -31,73 +33,82 @@
     <input type="url">
     <input type="week">
  -->
- <form action="#">
-    <div>
-        <!-- Hightlights associated input field if label has same id as input -->
-        <label for="username">Name but click on me to height associated field </label>
-        <input type="text" id="username">
-            
-    </div>
-    <br>
-    <div>
-        <label for="username2">Name but not same id click on me </label>
-        <input type="text">
-    </div>
-    <br>
-    <p>Email field</p>
-    <div>
-        <label for="email">Client side email validation </label>
-        <input type="email" name="email" id="email" placeholder="MELOL">
-    </div>
-    <br>
+    <form action="#">
+        <div>
+            <!-- Hightlights associated input field if label has same id as input -->
+            <label for="username">Name but click on me to height associated field </label>
+            <input type="text" id="username">
 
-    <p>Password field</p>
-    <div>
-        <label for="password">Client side password validation </label>
-        <input type="password" name="password" id="password" placeholder="passsword">
-    </div>
-    <br>
-    <p>Message field  but bigger</p>
-    <div>
-        <label for="messageBox">Message textarea</label>
-        <textarea id="messageBox" cols="10" rows="10"></textarea>
-    </div>
-    <br>
-    <div>
-       
-        <p>Dropdown</p>
-        <label for="NUM">NUM</label>
-        <select name="NUM" id="NUM">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5" selected>5</option>
-        </select>
+        </div>
+        <br>
+        <div>
+            <label for="username2">Name but not same id click on me </label>
+            <input type="text">
+        </div>
+        <br>
+        <p>Email field</p>
+        <div>
+            <label for="email">Client side email validation </label>
+            <input type="email" name="email" id="email" placeholder="MELOL">
+        </div>
+        <br>
 
-    </div>
-    <br>
-    <div>
-       
-        <p>NumberField</p>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age" >
-    </div>
-    <br>
-    <div>
-        <!-- Your radio should have same name  otherwise they will act as if they are different duh-->
-        <p>Radio</p>
-        Radio 1 <input type="radio" name="myradio" id="radio1">
-        Radio 2<input type="radio" name="myradio" id="radio2" checked>
-    </div>
-    <br>
-    <div>
-        <p>checkbox</p>
-        checkbox 1 <input type="checkbox" name="mycheckbox" id="checkbox1">
-        checkbox 2<input type="checkbox" name="mycheckbox" id="checkbox2" checked>
-    </div>
-    <input type="submit" value="Submit">
-    <input type="reset" value="Resets all except Default Selected">
- </form>   
+        <p>Password field</p>
+        <div>
+            <label for="password">Client side password validation </label>
+            <input type="password" name="password" id="password" placeholder="passsword">
+        </div>
+        <br>
+        <p>Message field but bigger</p>
+        <div>
+            <label for="messageBox">Message textarea</label>
+            <textarea id="messageBox" cols="10" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+
+            <p>Dropdown</p>
+            <label for="NUM">NUM</label>
+            <select name="NUM" id="NUM">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+
+            <p>NumberField</p>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age">
+        </div>
+        <br>
+        <div>
+            <!-- Your radio should have same name  otherwise they will act as if they are different duh-->
+            <p>Radio</p>
+            Radio 1 <input type="radio" name="myradio" id="radio1">
+            Radio 2<input type="radio" name="myradio" id="radio2" checked>
+        </div>
+        <br>
+        <div>
+            <p>RANGE</p>
+            <input type="range" name="" id="">
+        </div>
+        <br>
+        <div>
+            <p>checkbox</p>
+            checkbox 1 <input type="checkbox" name="mycheckbox" id="checkbox1">
+            checkbox 2<input type="checkbox" name="mycheckbox" id="checkbox2" checked>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Resets all except Default Selected">
+        </div>
+
+    </form>
 </body>
+
 </html>
