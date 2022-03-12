@@ -1,0 +1,29 @@
+
+/* 
+Examples
+. ---> class seelctor
+# ---> ID SELECTOR
+
+multi selectors using comma
+also 
+CSS format
+property: value ;
+*/
+.allcard
+{
+    padding: 10px;
+    border: 1px solid;
+    border-color: black;
+    background-color: rebeccapurple;
+}
+#card
+{
+    padding: 10px;
+    border: 1px solid;
+    border-color: rebeccapurple;
+    background-color:royalblue;
+}
+section,main
+{
+    text-align: center;
+}
