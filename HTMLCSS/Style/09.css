@@ -1,0 +1,25 @@
+li{
+    display:inline;
+}
+li a{
+    padding:20px; 
+}
+img
+{
+    /* since img is inline we convert it to block and margin auto
+    to center */
+    width: 500px;
+    height: 200px;
+    display:block;
+    margin:auto;
+}
+.box
+{
+    /* Inline block is compromise since
+    inline doesnt have width or margin we use inline block */
+    display:inline-block;
+    width:20%;
+    background-color: azure;
+    border: 1px black solid;
+    padding: 20px;
+}
