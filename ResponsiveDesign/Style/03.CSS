@@ -1,0 +1,27 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+}
+header p{
+    margin-bottom: 1.2rem;
+}
+header
+{
+    color:aliceblue;
+    background-color: cornflowerblue;
+    height: 50vh; /* half size */
+    /* width: 50vw; half width of page */
+    text-align: center;
+    background:gray url('/san.jpg') no-repeat ;
+    background-position: center;
+    background-size: cover;
+    /* height 100% doesnt expand to whole body since body wraps around
+    our element you can check this in dev tools */
+}
