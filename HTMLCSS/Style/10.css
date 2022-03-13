@@ -1,0 +1,54 @@
+/* 
+POSITION:
+
+static : all elements by defualt not affected by tolebore propertyies
+
+relative: tolebore causes to move
+Absolue: positioned relativ eot its parent
+Fixed: Fixed to viewport(browser Window)
+Sticky: based on scrolll position
+z-index : moves it in front (higher the zindex on it would be higher)
+
+*/
+body
+{
+    width:  1000px;
+    height :2000px;
+}
+.box
+{
+    width: 100px;
+   height: 200px;
+}
+#box-1
+{
+    background-color: red;
+    position: relative;
+    top:50px;
+    left:50px;
+}
+.container
+{
+    width: 500px;
+    height: 500px;
+    background-color: darkgray;
+}
+#box-2
+{
+    position: absolute;
+    background-color: hotpink;
+    left:50px;
+}
+#box-3
+{
+   position: fixed;
+   background-color: green;
+   z-index: 2;
+}
+#box-4
+{
+ position:sticky;
+ top:0; 
+ /* sttays on top */
+ background-color: aquamarine;   
+}
