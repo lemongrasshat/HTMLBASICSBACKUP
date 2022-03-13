@@ -1,0 +1,37 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-container-row
+{
+    display: flex;
+    flex-direction:column;
+    /* cross axis align */
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: gray;
+}
+h3{
+    font-size: 0.9em;
+}
+.item
+{
+    background-color: gray;
+    border: 1px red solid;
+    width: 200px;
+    text-align: center;
+    padding: 1.2em;
+    /* flex-basis sets width
+    flex-grow=1 takes whole horizontal space
+    flex-shrink=0 prevents shrink
+    */
+    /* in one go
+    flex : grow shrink basis;
+    flex: 1 0 100px;
+    */
+    flex: 1 0 100px;
+}
