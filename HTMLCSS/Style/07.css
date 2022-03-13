@@ -1,0 +1,33 @@
+#hover:hover
+{
+    color:red;
+}
+#active a{
+    color:green;
+}
+a:visited
+{
+    color:darkmagenta;
+}
+.dark
+{
+    border-radius: 10px;
+    border:none;
+    background-color: grey;
+    padding:1em;
+    font-size: 16px;
+    color:white
+}
+.blue
+{
+    border-radius: 10px;
+    border:none;
+    background-color:royalblue;
+    padding:1em;
+    font-size: 16px;
+    color:black
+}
+button:hover
+{
+    background-color: bisque;
+}
