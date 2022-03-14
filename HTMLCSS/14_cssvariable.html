@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables CSS</title>
+    <style>
+        /*  variables */
+        :root{
+            --gray-color: darkgray;
+            --prim-color: greenyellow;
+            --box-width: 3;
+            --box2-width:1;
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+            background-color: var(--gray-color);
+        }
+        .flex-container
+        {
+            display:flex;
+            flex-direction: row;
+        }
+        .box{
+            padding: 10px;
+            margin: 10px;
+        }
+        .box.box1
+        {
+            background-color: gray;
+            flex: var(--box2-width);       
+         }
+        .box.box2
+        {
+            background-color: darkblue;
+            flex: var(--box-width);
+            color: var(--prim-color);
+        }
+    </style>
+</head>
+<body>
+<div class="flex-container">
+    <div class="box box1">
+        <h2>Hello</h2>
+        <p>Looks like we are in a  pinch</p>
+    </div>
+    <div class="box box2">
+        <h2>World</h2>
+        <p>To the end.</p>
+    </div>
+</div>    
+</body>
+</html>
