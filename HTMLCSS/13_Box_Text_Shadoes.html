@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box and text </title>
+    <style>
+        .flex-container
+        {
+            display:flex;
+            justify-content: space-between;
+        }
+        .flex-container > *:hover
+        {
+            opacity: 0.8;
+        }
+        .item
+        {
+            /* Box shadow 
+            offsetx offsety color
+            offsetx offsety blur-radius color 
+            */
+            padding:1rem;
+            margin:1rem;
+            background:seagreen;
+            flex:1;
+            box-shadow: 5px 5px black;
+        }
+        .item2
+        {
+            /* Box shadow 
+            offsetx offsety color
+            offsetx offsety blur-radius color 
+            offsetx offsety blur-radius  spread-radius color 
+            negative to opposite side
+            */
+            padding:1rem;
+            margin:1rem;
+            background:red;
+            flex:1;
+            box-shadow: 5px 5px 5px black;
+        }
+        .item3
+        {
+            /* Box shadow 
+            offsetx offsety color
+            offsetx offsety blur-radius color 
+            offsetx offsety blur-radius  spread-radius color 
+            negative to opposite side
+            */
+            padding:1rem;
+            margin:1rem;
+            background:teal;
+            flex:1;
+            box-shadow: 5px 5px 5px 3px black;
+
+        }
+        .text-item
+        {
+            /* offset-x | offset-y | blur-radius | color */
+               /* / text-shadow: 1px 1px 2px black; */
+
+                /* color | offset-x | offset-y | blur-radius */
+                /* text-shadow: #fc0 1px 0 10px; */
+
+                /* offset-x | offset-y | color */
+                /* text-shadow: 5px 5px #558abb; */
+
+                /* color | offset-x | offset-y */
+                /* text-shadow: white 2px 5px; */
+
+                /* offset-x | offset-y
+                /* Use defaults for color and blur-radius */
+                /* text-shadow: 5px 10px; */
+
+            color:white;
+            background-color: black;
+            flex:1;
+            font-size: 20px;
+            text-shadow:2px 2px 1px red ;
+            /* text-shadow:5px 5px red ; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="item">
+
+        </div>
+        <div class="item">
+            
+        </div>
+        <div class="item">
+            
+            
+        </div>
+        <div class="item2">
+            <p>blurred radius</p>
+        </div>
+        <div class="item3">
+            <p>blurred radius spread</p>
+        </div>       
+    </div>
+    <h2>
+        Text Shadow
+    </h2>
+    <div class="flex-container">
+        
+        <div class="text-item">
+            <h3>
+                First
+            </h3>
+        </div>
+        <div class="text-item">
+            <h3>
+                second
+            </h3>
+        </div>
+        <div class="text-item">
+            <h3>
+                Third
+            </h3>
+        </div>
+    </div>
+</body>
+</html>
